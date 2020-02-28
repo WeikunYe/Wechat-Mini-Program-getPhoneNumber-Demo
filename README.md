@@ -10,5 +10,5 @@ Steps:
 4. sever send request to Wechat server with code to get openid and session key
 5. use session key, iv, to decrypt encrypted data to get user info (phone number, location .etc)
 
-
+Very Important:
 Make sure the login status has been cleared before login. Otherwise, the session key recieved is not able to decrypt data.
