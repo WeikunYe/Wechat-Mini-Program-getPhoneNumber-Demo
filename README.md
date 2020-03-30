@@ -13,4 +13,5 @@ Steps:
 7. Use session key, iv, to decrypt encrypted data to get user info (phone number, location .etc)
 
 Very Important:
-Make sure the login status has been cleared before login. Otherwise, the session key recieved is outdated and it is not able to decrypt data.
+1. Make sure the login status has been cleared before login. Otherwise, the session key recieved is outdated and it is not able to decrypt data.
+2. Original WXBizDataCrypt.py is written with Python 2.X, which does not work with python 3.X. Please check the file in this repository for changes
